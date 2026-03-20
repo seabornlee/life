@@ -3,6 +3,7 @@ date: "2026-03-20"
 ---
 
 <img src='/_image/Gemini_Generated_Image_y1jdvpy1jdvpy1jd.png'>
+
 # 提示词的灵活性与代码的确定性：Agent Skill 的设计哲学
 
 在智能体工程（Agentic Engineering）的浪潮中，我们正经历从“编写指令”到“构建生命体”的认知跨越。然而，99% 的开发者在设计 Agent Skill 时，依然将其等同于传统的 API 封装。
