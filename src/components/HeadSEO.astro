@@ -4,15 +4,18 @@ export interface Props {
   content: any;
   pageURL: URL | string;
 }
-const { icon,keywords,author,twitterId,homePage } =SITE;
+const { icon,keywords,author,twitterId,homePage,blogPage } =SITE;
 const { content = {}, pageURL } = Astro.props;
-const pageTitle = content.title ? `${SITE.title}${content.title}` : SITE.title;
-const imageSrc = SITE.pic;
+const pageTitle = content.title ? `${SITE.title} / ${content.title}` : SITE.title;
+// 优先使用文章的图片，否则使用站点默认图片
+const imageSrc = content.image ? content.image : SITE.pic;
+// 确保图片 URL 是绝对路径
+const absoluteImageSrc = imageSrc.startsWith('http') ? imageSrc : `${blogPage}${imageSrc}`;
 const description = content.description ? content.description : SITE.description;
 ---
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content={imageSrc} />
+<meta name="twitter:image" content={absoluteImageSrc} />
 <meta name="twitter:site" content={homePage} />
 <meta property="twitter:url" content={pageURL} />
 <meta name="twitter:creator" content={`@${twitterId}`} />
@@ -21,9 +24,9 @@ const description = content.description ? content.description : SITE.description
 <meta name="keywords" content={keywords}/>
 <meta name="author" content={author} />
 <meta name="description" content={description}>
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
 <meta property="og:title" content={pageTitle} />
-<meta property="og:image" content={icon} />
+<meta property="og:image" content={absoluteImageSrc} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={pageURL} />
-<meta property="og:site_name" content={pageTitle} />
+<meta property="og:site_name" content={SITE.title} />
