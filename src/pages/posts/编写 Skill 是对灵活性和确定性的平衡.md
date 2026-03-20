@@ -2,7 +2,7 @@
 date: "2026-03-20"
 ---
 
-<img src='/_image/Gemini_Generated_Image_y1jdvpy1jdvpy1jd.png'>
+<img src='/_image/Gemini_Generated_Image_y1jdvpy1jdvpy1jd.jpg'>
 
 # 提示词的灵活性与代码的确定性：Agent Skill 的设计哲学
 
