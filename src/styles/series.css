@@ -54,7 +54,7 @@
 .series-feedback a { display: inline-block; margin-top: 1rem; color: var(--yes-green); font-weight: 700; border-bottom: 2px solid var(--yes-green); }
 
 .chapter-page { width: min(66rem, calc(100% - 2rem)); margin: 0 auto; padding: 2rem 0 5rem; }
-.chapter-breadcrumb { display: flex; gap: .6rem; margin: 0 0 3rem; color: var(--yes-muted); font-size: .9rem; }
+.chapter-breadcrumb { display: flex; gap: .6rem; width: min(52rem, 100%); margin: 0 auto 3rem; color: var(--yes-muted); font-size: .9rem; }
 .chapter-breadcrumb a { color: inherit; }
 .chapter-article { position: relative; max-width: 52rem; margin: 0 auto; }
 .chapter-header { padding-bottom: 2.5rem; border-bottom: 1px solid var(--yes-rule); }
