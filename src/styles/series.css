@@ -73,6 +73,71 @@
 .chapter-sources h2 { font-family: "Noto Serif SC", "Songti SC", serif; font-size: 1.35rem; }
 .chapter-sources ul { display: flex; flex-wrap: wrap; gap: .5rem 1.4rem; padding: 0; list-style: none; color: var(--yes-muted); }
 .chapter-sources p { margin-top: 1.5rem; font-size: .9rem; color: var(--yes-muted); }
+.scripture-trigger {
+  display: inline-flex;
+  align-items: baseline;
+  gap: .45rem;
+  padding: .25rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--yes-rule);
+  background: transparent;
+  color: var(--yes-green);
+  font: inherit;
+  cursor: pointer;
+}
+.scripture-trigger span:last-child { color: var(--yes-copper); font-size: .75em; }
+.scripture-trigger:hover { border-color: var(--yes-green); }
+.scripture-trigger:focus-visible { outline: 2px solid var(--yes-copper); outline-offset: 3px; }
+.scripture-dialog {
+  position: fixed;
+  inset: 0;
+  width: min(42rem, calc(100% - 2rem));
+  max-height: min(82vh, 48rem);
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--yes-rule);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--yes-ink);
+  box-shadow: 0 24px 70px rgba(21, 31, 27, .28);
+}
+.scripture-dialog::backdrop { background: rgba(20, 29, 25, .62); }
+.scripture-dialog__page { position: relative; }
+.scripture-dialog__page::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 6px;
+  background: linear-gradient(to bottom, var(--yes-green) 0 34%, var(--yes-blue) 34% 67%, var(--yes-copper) 67%);
+}
+.scripture-dialog header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 2rem 1.5rem 2.35rem;
+  border-bottom: 1px solid var(--yes-rule);
+}
+.scripture-dialog header h2 { margin: 0; font-family: "Noto Serif SC", "Songti SC", serif; font-size: 2rem; line-height: 1.2; }
+.scripture-dialog header p:last-child { margin: .55rem 0 0; color: var(--yes-muted); font: .8rem/1.4 var(--font-mono); }
+.scripture-dialog__close {
+  flex: 0 0 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border: 1px solid var(--yes-rule);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--yes-ink);
+  font: 300 1.6rem/1 sans-serif;
+  cursor: pointer;
+}
+.scripture-dialog__close:hover { border-color: var(--yes-coral); color: var(--yes-coral); }
+.scripture-dialog__close:focus-visible { outline: 2px solid var(--yes-copper); outline-offset: 3px; }
+.scripture-dialog__body { max-height: calc(min(82vh, 48rem) - 8.5rem); overflow-y: auto; padding: 1.75rem 2rem 2rem 2.35rem; }
+.scripture-verses { font-family: "Noto Serif SC", "Songti SC", serif; font-size: 1.12rem; line-height: 1.95; }
+.scripture-verses p { margin: 0 0 1rem; }
+.scripture-verses sup { margin-right: .55rem; color: var(--yes-coral); font: 700 .7rem/1 var(--font-mono); }
+.scripture-dialog__body section > a { display: inline-block; margin-top: .75rem; color: var(--yes-muted); font-size: .8rem; border-bottom: 1px solid var(--yes-rule); }
 .chapter-pagination { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 52rem; margin: 4rem auto 0; padding-top: 2rem; border-top: 1px solid var(--yes-rule); }
 .chapter-pagination a { display: flex; flex-direction: column; gap: .3rem; color: var(--yes-ink); }
 .chapter-pagination a:last-child { text-align: right; }
@@ -120,4 +185,9 @@
   .chapter-domains i { width: 3px; }
   .chapter-body { font-size: 1rem; }
   .chapter-pagination { gap: 1rem; }
+  .scripture-dialog { width: calc(100% - 1.5rem); max-height: 86vh; }
+  .scripture-dialog header { gap: 1rem; padding: 1.4rem 1.25rem 1.1rem 1.6rem; }
+  .scripture-dialog header h2 { font-size: 1.55rem; }
+  .scripture-dialog__body { max-height: calc(86vh - 7.5rem); padding: 1.25rem 1.25rem 1.5rem 1.6rem; }
+  .scripture-verses { font-size: 1.02rem; line-height: 1.85; }
 }

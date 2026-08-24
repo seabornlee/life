@@ -19,6 +19,7 @@
     "content:sync": "node scripts/export-yes-to-being.mjs",
     "content:sync:preview": "node scripts/export-yes-to-being.mjs --preview",
     "content:check": "node scripts/validate-public-content.mjs",
+    "scriptures:sync": "node scripts/sync-scripture-excerpts.mjs",
     "prebuild": "npm run content:check",
     "build": "astro build",
     "preview": "astro preview",

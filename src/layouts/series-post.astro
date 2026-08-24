@@ -4,6 +4,7 @@ import HeadSEO from '@/components/HeadSEO.astro';
 import Header from '@/components/Header/Header.astro';
 import Footer from '@/components/Footer.astro';
 import series from '@/data/yes-to-being.json';
+import scriptures from '@/data/scriptures.json';
 import '@/styles/heti.min.css';
 import '@/styles/series.css';
 
@@ -23,6 +24,12 @@ const chapters = (await Astro.glob('../pages/series/yes-to-being/*.md')).sort(
 const currentIndex = chapters.findIndex((chapter) => chapter.frontmatter.id === frontmatter.id);
 const previous = currentIndex > 0 ? chapters[currentIndex - 1] : null;
 const next = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
+const scriptureByReference = new Map(
+  scriptures.entries.map((entry) => [entry.reference, entry]),
+);
+const chapterScriptures = frontmatter.sources
+  .map((reference) => scriptureByReference.get(reference))
+  .filter(Boolean);
 ---
 
 <html lang="zh-CN">
@@ -51,7 +58,23 @@ const next = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : n
         <div class="chapter-body"><slot /></div>
         <footer class="chapter-sources">
           <h2>经文索引</h2>
-          <ul>{frontmatter.sources.map((source) => <li>{source}</li>)}</ul>
+          <ul>
+            {frontmatter.sources.map((source) => (
+              <li>
+                {scriptureByReference.has(source) ? (
+                  <button
+                    type="button"
+                    class="scripture-trigger"
+                    data-scripture-reference={source}
+                    aria-haspopup="dialog"
+                    aria-controls="scripture-dialog"
+                  >
+                    <span>{source}</span><span aria-hidden="true">↗</span>
+                  </button>
+                ) : <span>{source}</span>}
+              </li>
+            ))}
+          </ul>
           <p>这是一份持续修订的学习札记，不代表任何教会或宗派的正式立场。</p>
         </footer>
       </article>
@@ -60,6 +83,70 @@ const next = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : n
         {next ? <a href={next.url}><small>下一章</small><span>{next.frontmatter.title}</span></a> : <span></span>}
       </nav>
     </main>
+    <dialog id="scripture-dialog" class="scripture-dialog" aria-labelledby="scripture-dialog-title">
+      <div class="scripture-dialog__page">
+        <header>
+          <div>
+            <p class="series-kicker">经文原文</p>
+            <h2 id="scripture-dialog-title">经文索引</h2>
+            <p>{scriptures.translation.name}</p>
+          </div>
+          <button type="button" class="scripture-dialog__close" aria-label="关闭经文浮窗" title="关闭">×</button>
+        </header>
+        <div class="scripture-dialog__body">
+          {chapterScriptures.map((entry) => (
+            <section data-scripture-panel={entry.reference} hidden>
+              <div class="scripture-verses">
+                {entry.verses.map((verse) => (
+                  <p><sup>{verse.number}</sup>{verse.text}</p>
+                ))}
+              </div>
+              <a href={entry.sourceUrl} target="_blank" rel="noreferrer">
+                数据来源：{scriptures.translation.sourceName}
+              </a>
+            </section>
+          ))}
+        </div>
+      </div>
+    </dialog>
     <Footer />
+    <script>
+      const dialog = document.querySelector('#scripture-dialog');
+      const title = document.querySelector('#scripture-dialog-title');
+      const panels = [...document.querySelectorAll('[data-scripture-panel]')];
+      let activeTrigger;
+
+      function closeDialog() {
+        if (dialog?.open) dialog.close();
+      }
+
+      document.querySelectorAll('[data-scripture-reference]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const reference = button.dataset.scriptureReference;
+          const panel = panels.find(
+            (candidate) => candidate.dataset.scripturePanel === reference,
+          );
+          if (!dialog || !title || !panel) return;
+
+          panels.forEach((candidate) => { candidate.hidden = true; });
+          panel.hidden = false;
+          title.textContent = reference;
+          activeTrigger = button;
+          dialog.showModal();
+        });
+      });
+
+      dialog?.querySelector('.scripture-dialog__close')?.addEventListener('click', closeDialog);
+      dialog?.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          closeDialog();
+        }
+      });
+      dialog?.addEventListener('click', (event) => {
+        if (event.target === dialog) closeDialog();
+      });
+      dialog?.addEventListener('close', () => activeTrigger?.focus());
+    </script>
   </body>
 </html>
