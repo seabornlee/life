@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">赦免：让过去不再垄断未来</title>
+  <desc id="desc">承认事实、承认责任、接受恩典、转向行动，最后落实为道歉、赔偿、修复与改变。</desc>
+  <rect width="1200" height="675" fill="#fbfaf7"/>
+  <path d="M125 340H1070" fill="none" stroke="#c8c2b6" stroke-width="4"/>
+  <path d="M1060 328L1080 340L1060 352" fill="none" stroke="#c8c2b6" stroke-width="4"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <g fill="#fff" stroke-width="4">
+      <circle cx="155" cy="340" r="58" stroke="#355b4b"/>
+      <circle cx="385" cy="340" r="58" stroke="#587487"/>
+      <circle cx="615" cy="340" r="58" stroke="#b68136"/>
+      <circle cx="845" cy="340" r="58" stroke="#9a4f49"/>
+      <circle cx="1075" cy="340" r="58" stroke="#355b4b" fill="#355b4b"/>
+    </g>
+    <text x="155" y="334" fill="#294338" font-size="27">承认</text><text x="155" y="366" fill="#294338" font-size="27">事实</text>
+    <text x="385" y="334" fill="#425a68" font-size="27">承认</text><text x="385" y="366" fill="#425a68" font-size="27">责任</text>
+    <text x="615" y="334" fill="#845f29" font-size="27">接受</text><text x="615" y="366" fill="#845f29" font-size="27">恩典</text>
+    <text x="845" y="334" fill="#7f3f3a" font-size="27">转向</text><text x="845" y="366" fill="#7f3f3a" font-size="27">行动</text>
+    <text x="1075" y="326" fill="#fff" font-size="23">道歉·赔偿</text><text x="1075" y="358" fill="#fff" font-size="23">修复·改变</text>
+    <text x="90" y="92" text-anchor="start" fill="#2e362f" font-size="42" font-weight="700">Yes 不是说伤害是对的</text>
+    <text x="90" y="135" text-anchor="start" fill="#6d706a" font-size="25">它承认过去已经发生，让责任重新面向未来</text>
+  </g>
+</svg>

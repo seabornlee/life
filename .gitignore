@@ -23,3 +23,6 @@ pnpm-debug.log*
 pnpm-lock.yaml
 .DS_Store
 .DS_Store
+
+# Local article archive; kept outside src/pages so Astro does not route it.
+/archive/posts_backup_20260521/

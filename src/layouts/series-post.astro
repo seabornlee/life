@@ -1,0 +1,65 @@
+---
+import HeadCommon from '@/components/HeadCommon.astro';
+import HeadSEO from '@/components/HeadSEO.astro';
+import Header from '@/components/Header/Header.astro';
+import Footer from '@/components/Footer.astro';
+import series from '@/data/yes-to-being.json';
+import '@/styles/heti.min.css';
+import '@/styles/series.css';
+
+const frontmatter = Astro.props.frontmatter;
+const currentPath = new URL(Astro.request.url).pathname;
+const canonicalUrl = `https://life.waterlee.site${currentPath}`;
+const content = {
+  title: frontmatter.title,
+  description: frontmatter.description,
+  image: frontmatter.cover,
+  date: frontmatter.date,
+  updated: frontmatter.updated,
+};
+const chapters = (await Astro.glob('../pages/series/yes-to-being/*.md')).sort(
+  (a, b) => a.frontmatter.order - b.frontmatter.order,
+);
+const currentIndex = chapters.findIndex((chapter) => chapter.frontmatter.id === frontmatter.id);
+const previous = currentIndex > 0 ? chapters[currentIndex - 1] : null;
+const next = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
+---
+
+<html lang="zh-CN">
+  <head>
+    <HeadCommon />
+    <HeadSEO content={content} pageURL={canonicalUrl} noindex={frontmatter.publication_status !== 'published'} />
+    <title>{frontmatter.title} | {series.title}</title>
+  </head>
+  <body class="series-shell">
+    <Header />
+    <main class="chapter-page">
+      <nav class="chapter-breadcrumb" aria-label="面包屑">
+        <a href="/">文章</a><span>/</span><a href="/series/yes-to-being/">{series.title}</a>
+      </nav>
+      <article class="chapter-article heti">
+        <header class="chapter-header">
+          <p class="series-kicker">第 {String(frontmatter.order).padStart(2, '0')} 章</p>
+          <h1>{frontmatter.title}</h1>
+          <p class="chapter-deck">{frontmatter.description}</p>
+          <div class="chapter-meta">
+            <time datetime={frontmatter.updated}>修订于 {frontmatter.updated}</time>
+            {frontmatter.publication_status !== 'published' ? <span>本地审阅稿</span> : null}
+          </div>
+        </header>
+        <div class="chapter-domains" aria-hidden="true"><i></i><i></i><i></i></div>
+        <div class="chapter-body"><slot /></div>
+        <footer class="chapter-sources">
+          <h2>经文索引</h2>
+          <ul>{frontmatter.sources.map((source) => <li>{source}</li>)}</ul>
+          <p>这是一份持续修订的学习札记，不代表任何教会或宗派的正式立场。</p>
+        </footer>
+      </article>
+      <nav class="chapter-pagination" aria-label="章节导航">
+        {previous ? <a href={previous.url}><small>上一章</small><span>{previous.frontmatter.title}</span></a> : <span></span>}
+        {next ? <a href={next.url}><small>下一章</small><span>{next.frontmatter.title}</span></a> : <span></span>}
+      </nav>
+    </main>
+    <Footer />
+  </body>
+</html>

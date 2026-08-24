@@ -7,10 +7,10 @@ export const SITE = {
   pic: '/_image/cover.png',
   homePage: 'https://waterlee.site',
   blogPage: 'https://life.waterlee.site',
+  seriesPage: 'https://life.waterlee.site/series/yes-to-being/',
   twitterId: 'seabornli',
   githubId: 'seabornlee',
   repo: 'seabornlee/life',
   gitcusRepoId: 'R_kgDOIddEwA',
   gitcusCategoryId: 'DIC_kwDOIddEwM4CSol9'
 };
-

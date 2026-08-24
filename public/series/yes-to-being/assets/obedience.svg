@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">顺服：主体作出的回应</title>
+  <desc id="desc">聆听、分辨、信任、行动依次相连，行动结果再反馈到分辨。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <path d="M170 330H1015" fill="none" stroke="#b8c5bb" stroke-width="4"/>
+  <path d="M1005 318L1025 330L1005 342" fill="none" stroke="#b8c5bb" stroke-width="4"/>
+  <path d="M955 415C855 555 490 555 375 420" fill="none" stroke="#b36b52" stroke-width="4" stroke-dasharray="12 12"/>
+  <path d="M385 422L371 409L369 429" fill="none" stroke="#b36b52" stroke-width="4"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <circle cx="190" cy="330" r="64" fill="#355b4b"/>
+    <text x="190" y="342" fill="#fff" font-size="34">聆听</text>
+    <circle cx="455" cy="330" r="64" fill="#587487"/>
+    <text x="455" y="342" fill="#fff" font-size="34">分辨</text>
+    <circle cx="720" cy="330" r="64" fill="#b68136"/>
+    <text x="720" y="342" fill="#fff" font-size="34">信任</text>
+    <circle cx="985" cy="330" r="64" fill="#9a4f49"/>
+    <text x="985" y="342" fill="#fff" font-size="34">行动</text>
+    <text x="665" y="535" fill="#6b5148" font-size="25">结果回到分辨</text>
+    <text x="90" y="92" text-anchor="start" fill="#25352d" font-size="42" font-weight="700">顺服不是交出判断</text>
+    <text x="90" y="135" text-anchor="start" fill="#607069" font-size="25">它是一条带着反馈的主动回应路径</text>
+  </g>
+</svg>

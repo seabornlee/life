@@ -1,0 +1,80 @@
+---
+import HeadCommon from '@/components/HeadCommon.astro';
+import HeadSEO from '@/components/HeadSEO.astro';
+import Header from '@/components/Header/Header.astro';
+import Footer from '@/components/Footer.astro';
+import series from '@/data/yes-to-being.json';
+import '@/styles/series.css';
+
+const chapters = (await Astro.glob('./*.md')).sort(
+  (a, b) => a.frontmatter.order - b.frontmatter.order,
+);
+const content = {
+  title: series.title,
+  description: series.description,
+  image: series.cover,
+  date: '2026-08-24',
+  updated: series.updated,
+};
+---
+
+<html lang="zh-CN">
+  <head>
+    <HeadCommon />
+    <HeadSEO content={content} pageURL={series.canonicalUrl} noindex={series.preview} />
+    <title>{series.title} | {series.subtitle}</title>
+  </head>
+  <body class="series-shell">
+    <Header />
+    <main>
+      <section class="series-hero" style={`background-image:url(${series.cover})`}>
+        <div class="series-hero__shade"></div>
+        <div class="series-hero__content">
+          <p class="series-kicker">持续写作中的圣经学习问答</p>
+          <h1>{series.title}</h1>
+          <p class="series-subtitle">{series.subtitle}</p>
+          <p class="series-intro">{series.description}</p>
+          {series.preview ? <p class="series-state">本地审阅稿 · 尚未公开发布</p> : null}
+        </div>
+      </section>
+
+      <section class="series-principle" aria-labelledby="principle-title">
+        <div class="series-principle__mark" aria-hidden="true"></div>
+        <div>
+          <p class="series-kicker">写作边界</p>
+          <h2 id="principle-title">让四种声音各自在自己的域里站住</h2>
+          <p>经文保存见证，神学解释见证，共同体实践见证；李浪溪的存在论转译则作为个人理解单独呈现，不让任何一层冒充另一层。</p>
+        </div>
+      </section>
+
+      <section class="series-chapters" aria-labelledby="chapters-title">
+        <header>
+          <p class="series-kicker">已经形成的章节</p>
+          <h2 id="chapters-title">从一个真实问题开始</h2>
+        </header>
+        <ol>
+          {chapters.map((chapter) => (
+            <li>
+              <a href={chapter.url}>
+                <span class="chapter-order">{String(chapter.frontmatter.order).padStart(2, '0')}</span>
+                <span class="chapter-copy">
+                  <strong>{chapter.frontmatter.title}</strong>
+                  <span>{chapter.frontmatter.description}</span>
+                </span>
+                <span class="chapter-link">阅读</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="series-feedback">
+        <p class="series-kicker">校正也是写作的一部分</p>
+        <h2>看见错漏，请直接指出</h2>
+        <p>经文事实、宗派差异、实践反例或表达问题，都会进入下一次修订。</p>
+        <a href="mailto:waterlee.site@gmail.com?subject=%E3%80%8A%E5%90%91%E5%AD%98%E5%9C%A8%E8%AF%B4%20Yes%E3%80%8B%E6%A0%A1%E6%AD%A3">发送校正</a>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

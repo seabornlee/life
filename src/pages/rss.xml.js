@@ -1,23 +1,22 @@
 import rss from '@astrojs/rss';
 
 let allPosts = import.meta.glob('./posts/*.md', { eager: true });
-let posts = Object.values(allPosts);
+let seriesPosts = import.meta.glob('./series/yes-to-being/*.md', { eager: true });
+let posts = [...Object.values(allPosts), ...Object.values(seriesPosts)]
+  .filter((item) => item.frontmatter.publication_status !== 'local-preview');
 posts = posts.sort((a, b) => {
-  return (
-    parseInt(b.url.split('/posts/')[1].split('-')[0]) -
-    parseInt(a.url.split('/posts/')[1].split('-')[0])
-  );
+  return new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime();
 });
 
 export const get = () =>
   rss({
-    title: 'Seaborn\'s Life',
-    description: '记录 Seaborn 的日常生活',
-    site: 'https://life.seabornlee.cn',
+    title: 'Water Lee\'s Life',
+    description: '记录 Water Lee 的工作、学习与生活',
+    site: 'https://life.waterlee.site',
     customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image>`,
     items: posts.map((item) => {
       const url = item.url;
-      const title = url.split('/posts/')[1];
+      const title = item.frontmatter.title || decodeURIComponent(url.split('/').filter(Boolean).at(-1));
       return {
         link: url,
         title,

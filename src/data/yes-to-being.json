@@ -1,0 +1,47 @@
+{
+  "id": "yes-to-being",
+  "title": "向存在说 Yes",
+  "subtitle": "我的圣经学习问答",
+  "description": "一个初学者走近《圣经》与基督教的真实提问。这里区分经文见证、神学解释、共同体实践与李浪溪的个人转译。",
+  "canonicalUrl": "https://life.waterlee.site/series/yes-to-being/",
+  "sourceId": "01a01859-5ca3-72f1-b096-e3873bdfd171",
+  "updated": "2026-08-24",
+  "published": "2026-08-24",
+  "cover": "/series/yes-to-being/assets/cover.jpg",
+  "preview": false,
+  "chapters": [
+    {
+      "id": "obedience",
+      "order": 1,
+      "slug": "obedience",
+      "title": "什么是顺服？",
+      "description": "顺服不是把判断和责任交出去，而是在聆听、分辨与信任之后采取行动，并继续对结果负责。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "fece27c92ae67c4ff1bc9c6cf3810aa2a6f5d3825997c3572cfe665d3c429c93"
+    },
+    {
+      "id": "forgiveness",
+      "order": 2,
+      "slug": "forgiveness",
+      "title": "什么是赦免？",
+      "description": "赦免承认伤害已经发生，也承认责任仍然存在；它停止让过去无限索取未来，同时为修复留下行动空间。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "b4e11a8353ea47423dcc92888d63a91247bc8b90df6c041f86c648d82c0122a7"
+    },
+    {
+      "id": "church-community",
+      "order": 3,
+      "slug": "church-community",
+      "title": "教会作为共同体：练习、互助与归属",
+      "description": "教会同时是信仰练习场、互助网络和归属关系；判断它是否健康，要看权力、金钱、冲突与成员主体性怎样被实践。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "925143300b11656b298fb8bf4179a3d1c20ea10cc6ce1e3876b0e4d52455d2eb"
+    }
+  ]
+}

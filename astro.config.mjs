@@ -10,14 +10,23 @@ import { SITE } from "./src/config";
 function defaultLayoutPlugin() {
   return function (tree, file) {
     const filePath = file.history[0];
-    file.data.astro.frontmatter.layout = "@layouts/post.astro";
+    if (!file.data.astro.frontmatter.layout) {
+      file.data.astro.frontmatter.layout = "@layouts/post.astro";
+    }
+
+    // The page layout owns the single H1. Markdown H1s become section headings.
+    tree.children.forEach((child) => {
+      if (child.type === "heading" && child.depth === 1) child.depth = 2;
+    });
 
     // 头图放到文档中的第一行，会自动帮你处理，也可以用 frontmatter 方式，赋值给 pic 字段
     let hasCover = false;
     if (tree.children[0]?.value) {
       const imageElement = parse(tree.children[0].value).querySelector("img");
-      file.data.astro.frontmatter.pic = imageElement.getAttribute("src");
-      hasCover = true;
+      if (imageElement) {
+        file.data.astro.frontmatter.pic = imageElement.getAttribute("src");
+        hasCover = true;
+      }
     }
 
     // 描述放到文档中头图的下一行，会自动帮你处理，也可以用 frontmatter 方式，赋值给 desc 字段

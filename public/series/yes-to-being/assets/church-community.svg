@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">教会的三重价值</title>
+  <desc id="desc">个人练习、互助网络和归属关系彼此循环，中间是保留主体性的成员。</desc>
+  <rect width="1200" height="675" fill="#f7faf9"/>
+  <g fill="none" stroke-width="54" opacity="0.92">
+    <path d="M600 175A215 215 0 0 1 786 497" stroke="#355b4b"/>
+    <path d="M786 497A215 215 0 0 1 414 497" stroke="#587487"/>
+    <path d="M414 497A215 215 0 0 1 600 175" stroke="#b68136"/>
+  </g>
+  <circle cx="600" cy="390" r="105" fill="#fff" stroke="#9a4f49" stroke-width="4"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="600" y="380" fill="#7f3f3a" font-size="29">保留主体性的</text>
+    <text x="600" y="420" fill="#7f3f3a" font-size="34" font-weight="700">成员</text>
+    <text x="600" y="149" fill="#294338" font-size="31" font-weight="700">个人练习</text>
+    <text x="857" y="535" fill="#425a68" font-size="31" font-weight="700">互助网络</text>
+    <text x="343" y="535" fill="#845f29" font-size="31" font-weight="700">归属关系</text>
+    <text x="90" y="92" text-anchor="start" fill="#25352d" font-size="42" font-weight="700">共同体不是三项服务的相加</text>
+    <text x="90" y="135" text-anchor="start" fill="#607069" font-size="25">练习、互助与归属互相塑造，也必须给主体留下位置</text>
+  </g>
+</svg>

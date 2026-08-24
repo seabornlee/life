@@ -6,13 +6,14 @@ import Header from '../components/Header/Header.astro';
 import Footer from '../components/Footer.astro'
 import { SITE } from '@/config';
 import {sortPosts} from '@/util'
+import series from '@/data/yes-to-being.json';
 
 const posts = await Astro.glob('./posts/*.md');
 const allPosts = sortPosts(posts);
 
 ---
 
-<html lang="ch">
+<html lang="zh-CN">
   <head>
     <HeadCommon />
     <HeadSEO pageURL={SITE.blogPage} content={{}} />
@@ -21,6 +22,14 @@ const allPosts = sortPosts(posts);
 
   <body>
     <Header />
+    <a class="series-feature" href="/series/yes-to-being/" style={`background-image:url(${series.cover})`}>
+      <span class="series-feature__shade"></span>
+      <span class="series-feature__content">
+        <small>持续写作专题</small>
+        <strong>{series.title}</strong>
+        <span>{series.subtitle}</span>
+      </span>
+    </a>
     <div
       class="mx-auto -mt-5 mb-12 xl:max-w-7xl w-full lg:max-w-5xl md:max-w-2xl max-w-xl md:box-border box-content md:px-0 px-3"
     >
@@ -33,3 +42,47 @@ const allPosts = sortPosts(posts);
     <Footer/>
   </body>
 </html>
+
+<style>
+  .series-feature {
+    position: relative;
+    min-height: 22rem;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+  }
+  .series-feature__shade {
+    position: absolute;
+    inset: 0;
+    background: rgba(18, 31, 27, 0.54);
+  }
+  .series-feature__content {
+    position: relative;
+    width: min(74rem, calc(100% - 2rem));
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: .35rem;
+    transition: transform 180ms ease;
+  }
+  .series-feature small { font-size: .9rem; }
+  .series-feature strong {
+    font-family: "Noto Serif SC", "Songti SC", serif;
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+  .series-feature:hover .series-feature__content { transform: translateY(-4px); }
+  @media (max-width: 50em) {
+    .series-feature { min-height: 19rem; }
+    .series-feature strong { font-size: 2.5rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .series-feature__content { transition: none; }
+  }
+</style>

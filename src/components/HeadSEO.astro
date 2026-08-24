@@ -3,9 +3,10 @@ import { SITE } from '@/config';
 export interface Props {
   content: any;
   pageURL: URL | string;
+  noindex?: boolean;
 }
 const { icon,keywords,author,twitterId,homePage,blogPage } =SITE;
-const { content = {}, pageURL } = Astro.props;
+const { content = {}, pageURL, noindex = false } = Astro.props;
 const pageTitle = content.title ? `${SITE.title} / ${content.title}` : SITE.title;
 // 优先使用文章的图片，否则使用站点默认图片
 const imageSrc = content.image ? content.image : SITE.pic;
@@ -30,3 +31,19 @@ const description = content.description ? content.description : SITE.description
 <meta property="og:description" content={description} />
 <meta property="og:url" content={pageURL} />
 <meta property="og:site_name" content={SITE.title} />
+<meta property="og:locale" content="zh_CN" />
+<link rel="canonical" href={pageURL} />
+{content.date ? <meta property="article:published_time" content={content.date} /> : null}
+{content.updated ? <meta property="article:modified_time" content={content.updated} /> : null}
+{noindex ? <meta name="robots" content="noindex,nofollow" /> : null}
+<script type="application/ld+json" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': content.title ? 'BlogPosting' : 'WebSite',
+  headline: content.title || SITE.title,
+  description,
+  image: absoluteImageSrc,
+  url: String(pageURL),
+  datePublished: content.date,
+  dateModified: content.updated || content.date,
+  author: { '@type': 'Person', name: SITE.author, url: SITE.homePage },
+})} />
