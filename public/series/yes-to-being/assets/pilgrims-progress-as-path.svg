@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">《天路历程》从重担到天城的路径</title>
+  <desc id="desc">天路客从毁灭之城和背上重担出发，经过窄门、重担脱落、虚荣市集和怀疑城堡，穿过死亡之河后走向天城。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="80" y="78" text-anchor="start" fill="#25352d" font-size="42" font-weight="700">班扬把神学变成一条可行走的路</text>
+    <text x="80" y="122" text-anchor="start" fill="#607069" font-size="25">概念不只被解释，它们成为地形、障碍、同行者与出口</text>
+
+    <path d="M112 380C210 210 330 520 455 340S700 225 792 392S972 520 1090 305" fill="none" stroke="#b8c5bb" stroke-width="13" stroke-linecap="round"/>
+    <path d="M112 380C210 210 330 520 455 340S700 225 792 392S972 520 1090 305" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="12 15" stroke-linecap="round"/>
+
+    <g>
+      <circle cx="112" cy="380" r="48" fill="#9a4f49"/>
+      <text x="112" y="373" fill="#fff" font-size="22">毁灭之城</text>
+      <text x="112" y="402" fill="#fff" font-size="18">背上重担</text>
+
+      <circle cx="292" cy="365" r="47" fill="#355b4b"/>
+      <text x="292" y="374" fill="#fff" font-size="24">窄门</text>
+
+      <circle cx="455" cy="340" r="47" fill="#587487"/>
+      <text x="455" y="331" fill="#fff" font-size="21">重担</text>
+      <text x="455" y="360" fill="#fff" font-size="21">脱落</text>
+
+      <circle cx="655" cy="300" r="53" fill="#b68136"/>
+      <text x="655" y="293" fill="#fff" font-size="22">虚荣</text>
+      <text x="655" y="323" fill="#fff" font-size="22">市集</text>
+
+      <circle cx="826" cy="415" r="53" fill="#59665f"/>
+      <text x="826" y="408" fill="#fff" font-size="22">怀疑</text>
+      <text x="826" y="438" fill="#fff" font-size="22">城堡</text>
+
+      <circle cx="970" cy="430" r="48" fill="#587487"/>
+      <text x="970" y="423" fill="#fff" font-size="21">死亡</text>
+      <text x="970" y="452" fill="#fff" font-size="21">之河</text>
+
+      <circle cx="1090" cy="305" r="56" fill="#355b4b"/>
+      <text x="1090" y="314" fill="#fff" font-size="26">天城</text>
+    </g>
+
+    <g fill="#607069" font-size="20">
+      <text x="112" y="477">承认危机</text>
+      <text x="292" y="455">开始转向</text>
+      <text x="455" y="430">领受恩典</text>
+      <text x="655" y="205">分辨秩序</text>
+      <text x="826" y="515">穿过绝望</text>
+      <text x="970" y="520">最后边界</text>
+      <text x="1090" y="213">朝圣终点</text>
+    </g>
+
+    <rect x="250" y="575" width="700" height="55" rx="4" fill="#e8eee9"/>
+    <text x="600" y="611" fill="#25352d" font-size="24">Yes：承认所在 → And：迈步、分辨、跌倒后继续走</text>
+  </g>
+</svg>

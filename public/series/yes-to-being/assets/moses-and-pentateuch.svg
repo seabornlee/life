@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">摩西、传统与五经成书的三层结构</title>
+  <desc id="desc">经文中的摩西是解放领袖、律法中保与先知典范；传统将五经权威归给他；现代研究追问文本的多来源与编辑过程。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif">
+    <text x="80" y="78" fill="#25352d" font-size="42" font-weight="700">“摩西五经”包含三类不同问题</text>
+    <text x="80" y="122" fill="#607069" font-size="25">人物是谁 · 权威归谁 · 文本如何成书</text>
+
+    <g text-anchor="middle">
+      <rect x="105" y="174" width="990" height="112" rx="4" fill="#355b4b"/>
+      <circle cx="175" cy="230" r="30" fill="#f8faf7"/>
+      <text x="175" y="240" fill="#355b4b" font-size="28" font-weight="700">1</text>
+      <text x="340" y="218" fill="#fff" font-size="29">经文中的摩西</text>
+      <text x="725" y="218" fill="#dce9e1" font-size="23">解放领袖 · 律法中保 · 代求者 · 先知典范</text>
+      <text x="600" y="258" fill="#dce9e1" font-size="20">回答：五经如何塑造这个人物？</text>
+
+      <path d="M600 286V318" stroke="#b8c5bb" stroke-width="4"/>
+      <rect x="105" y="318" width="990" height="112" rx="4" fill="#587487"/>
+      <circle cx="175" cy="374" r="30" fill="#f8faf7"/>
+      <text x="175" y="384" fill="#587487" font-size="28" font-weight="700">2</text>
+      <text x="340" y="362" fill="#fff" font-size="29">摩西传统</text>
+      <text x="725" y="362" fill="#e1eaf0" font-size="23">律法借摩西赐下 · 五经权威归于摩西</text>
+      <text x="600" y="402" fill="#e1eaf0" font-size="20">回答：这套经典的权威从哪里来？</text>
+
+      <path d="M600 430V462" stroke="#b8c5bb" stroke-width="4"/>
+      <rect x="105" y="462" width="990" height="112" rx="4" fill="#b68136"/>
+      <circle cx="175" cy="518" r="30" fill="#f8faf7"/>
+      <text x="175" y="528" fill="#b68136" font-size="28" font-weight="700">3</text>
+      <text x="340" y="506" fill="#fff" font-size="29">现代成书研究</text>
+      <text x="725" y="506" fill="#fff2db" font-size="23">口传 · 记录 · 多来源 · 编辑 · 层累</text>
+      <text x="600" y="546" fill="#fff2db" font-size="20">回答：现存文本经历了什么过程？</text>
+    </g>
+
+    <text x="600" y="628" text-anchor="middle" fill="#9a4f49" font-size="25">三种问题可以共存，但不能把任何一种偷换成全部答案</text>
+  </g>
+</svg>

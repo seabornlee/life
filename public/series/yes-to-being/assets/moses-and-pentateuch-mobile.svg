@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1180" role="img" aria-labelledby="title desc">
+  <title id="title">摩西、传统与五经成书的三层结构</title>
+  <desc id="desc">摩西五经包含经文人物、传统权威归属与现代成书研究三类不同问题。</desc>
+  <rect width="800" height="1180" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="56" y="86" text-anchor="start" fill="#25352d" font-size="46" font-weight="700">“摩西五经”</text>
+    <text x="56" y="145" text-anchor="start" fill="#25352d" font-size="46" font-weight="700">包含三类不同问题</text>
+    <text x="56" y="198" text-anchor="start" fill="#607069" font-size="27">人物是谁 · 权威归谁 · 文本如何成书</text>
+
+    <rect x="70" y="258" width="660" height="224" rx="4" fill="#355b4b"/>
+    <circle cx="144" cy="330" r="36" fill="#f8faf7"/>
+    <text x="144" y="342" fill="#355b4b" font-size="32" font-weight="700">1</text>
+    <text x="400" y="332" fill="#fff" font-size="38">经文中的摩西</text>
+    <text x="400" y="390" fill="#dce9e1" font-size="28">解放领袖 · 律法中保</text>
+    <text x="400" y="434" fill="#dce9e1" font-size="26">代求者 · 先知典范</text>
+    <path d="M400 482V530" stroke="#b8c5bb" stroke-width="5"/>
+
+    <rect x="70" y="530" width="660" height="224" rx="4" fill="#587487"/>
+    <circle cx="144" cy="602" r="36" fill="#f8faf7"/>
+    <text x="144" y="614" fill="#587487" font-size="32" font-weight="700">2</text>
+    <text x="400" y="604" fill="#fff" font-size="38">摩西传统</text>
+    <text x="400" y="662" fill="#e1eaf0" font-size="28">律法借摩西赐下</text>
+    <text x="400" y="706" fill="#e1eaf0" font-size="26">五经权威归于摩西</text>
+    <path d="M400 754V802" stroke="#b8c5bb" stroke-width="5"/>
+
+    <rect x="70" y="802" width="660" height="224" rx="4" fill="#b68136"/>
+    <circle cx="144" cy="874" r="36" fill="#f8faf7"/>
+    <text x="144" y="886" fill="#b68136" font-size="32" font-weight="700">3</text>
+    <text x="400" y="876" fill="#fff" font-size="38">现代成书研究</text>
+    <text x="400" y="934" fill="#fff2db" font-size="28">口传 · 记录 · 多来源</text>
+    <text x="400" y="978" fill="#fff2db" font-size="26">编辑 · 补写 · 层累</text>
+
+    <rect x="60" y="1070" width="680" height="72" rx="4" fill="#e8eee9"/>
+    <text x="400" y="1116" fill="#9a4f49" font-size="26">三种问题共存，但不能相互偷换</text>
+  </g>
+</svg>

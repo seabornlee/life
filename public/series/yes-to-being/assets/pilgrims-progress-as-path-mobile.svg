@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1320" role="img" aria-labelledby="title desc">
+  <title id="title">《天路历程》从重担到天城的路径</title>
+  <desc id="desc">天路客从毁灭之城出发，经过窄门、重担脱落、虚荣市集、怀疑城堡和死亡之河，最后走向天城。</desc>
+  <rect width="800" height="1320" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="56" y="86" text-anchor="start" fill="#25352d" font-size="45" font-weight="700">把神学变成</text>
+    <text x="56" y="145" text-anchor="start" fill="#25352d" font-size="45" font-weight="700">一条可行走的路</text>
+    <text x="56" y="198" text-anchor="start" fill="#607069" font-size="27">地形 · 障碍 · 同行者 · 出口</text>
+
+    <path d="M400 260V1120" stroke="#b8c5bb" stroke-width="14" stroke-linecap="round"/>
+    <path d="M400 260V1120" stroke="#fff" stroke-width="3" stroke-dasharray="13 17"/>
+
+    <g>
+      <circle cx="400" cy="290" r="67" fill="#9a4f49"/>
+      <text x="400" y="280" fill="#fff" font-size="27">毁灭之城</text>
+      <text x="400" y="318" fill="#fff" font-size="23">背上重担</text>
+      <text x="600" y="300" fill="#607069" font-size="27">承认危机</text>
+
+      <circle cx="400" cy="430" r="58" fill="#355b4b"/>
+      <text x="400" y="442" fill="#fff" font-size="31">窄门</text>
+      <text x="205" y="440" fill="#607069" font-size="27">开始转向</text>
+
+      <circle cx="400" cy="570" r="58" fill="#587487"/>
+      <text x="400" y="559" fill="#fff" font-size="27">重担</text>
+      <text x="400" y="596" fill="#fff" font-size="27">脱落</text>
+      <text x="600" y="580" fill="#607069" font-size="27">领受恩典</text>
+
+      <circle cx="400" cy="710" r="64" fill="#b68136"/>
+      <text x="400" y="699" fill="#fff" font-size="27">虚荣</text>
+      <text x="400" y="736" fill="#fff" font-size="27">市集</text>
+      <text x="205" y="720" fill="#607069" font-size="27">分辨秩序</text>
+
+      <circle cx="400" cy="856" r="64" fill="#59665f"/>
+      <text x="400" y="845" fill="#fff" font-size="27">怀疑</text>
+      <text x="400" y="882" fill="#fff" font-size="27">城堡</text>
+      <text x="600" y="866" fill="#607069" font-size="27">穿过绝望</text>
+
+      <circle cx="400" cy="1000" r="60" fill="#587487"/>
+      <text x="400" y="989" fill="#fff" font-size="27">死亡</text>
+      <text x="400" y="1026" fill="#fff" font-size="27">之河</text>
+      <text x="205" y="1010" fill="#607069" font-size="27">最后边界</text>
+
+      <circle cx="400" cy="1134" r="66" fill="#355b4b"/>
+      <text x="400" y="1146" fill="#fff" font-size="33">天城</text>
+      <text x="600" y="1144" fill="#607069" font-size="27">朝圣终点</text>
+    </g>
+
+    <rect x="70" y="1232" width="660" height="58" rx="4" fill="#e8eee9"/>
+    <text x="400" y="1270" fill="#25352d" font-size="25">Yes：承认所在 → And：迈步后继续分辨</text>
+  </g>
+</svg>

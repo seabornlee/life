@@ -41,6 +41,22 @@ const references = [
   { reference: '马可福音 10:42-45', book: 41, chapter: 10, start: 42, end: 45 },
   { reference: '彼得前书 5:2-3', book: 60, chapter: 5, start: 2, end: 3 },
   { reference: '罗马书 13:1', book: 45, chapter: 13, start: 1, end: 1 },
+  { reference: '马太福音 25:31-46', book: 40, chapter: 25, start: 31, end: 46 },
+  { reference: '约翰福音 5:28-29', book: 43, chapter: 5, start: 28, end: 29 },
+  { reference: '彼得后书 3:9', book: 61, chapter: 3, start: 9, end: 9 },
+  { reference: '哥林多前书 15:20-28', book: 46, chapter: 15, start: 20, end: 28 },
+  { reference: '启示录 21:1-5', book: 66, chapter: 21, start: 1, end: 5 },
+  { reference: '出埃及记 3:1-15', book: 2, chapter: 3, start: 1, end: 15 },
+  { reference: '出埃及记 24:3-4', book: 2, chapter: 24, start: 3, end: 4 },
+  { reference: '民数记 33:1-2', book: 4, chapter: 33, start: 1, end: 2 },
+  { reference: '申命记 31:9', book: 5, chapter: 31, start: 9, end: 9 },
+  { reference: '申命记 34:1-12', book: 5, chapter: 34, start: 1, end: 12 },
+  { reference: '诗篇 90:1-2', book: 19, chapter: 90, start: 1, end: 2 },
+  { reference: '罗马书 7:24-25', book: 45, chapter: 7, start: 24, end: 25 },
+  { reference: '马太福音 7:13-14', book: 40, chapter: 7, start: 13, end: 14 },
+  { reference: '希伯来书 11:13-16', book: 58, chapter: 11, start: 13, end: 16 },
+  { reference: '希伯来书 12:1-2', book: 58, chapter: 12, start: 1, end: 2 },
+  { reference: '腓立比书 3:13-14', book: 50, chapter: 3, start: 13, end: 14 },
 ];
 
 const translation = {

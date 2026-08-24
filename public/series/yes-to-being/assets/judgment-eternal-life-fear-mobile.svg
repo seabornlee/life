@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" role="img" aria-labelledby="title desc">
+  <title id="title">审判、永生与恐惧的三域判别</title>
+  <desc id="desc">审判与永生语言需要分别在教义、心理和组织三个域中判断。</desc>
+  <rect width="800" height="1200" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="56" y="86" text-anchor="start" fill="#25352d" font-size="46" font-weight="700">同一句话</text>
+    <text x="56" y="145" text-anchor="start" fill="#25352d" font-size="46" font-weight="700">要在三个域里判断</text>
+    <text x="56" y="198" text-anchor="start" fill="#607069" font-size="27">教义 ≠ 心理功能 ≠ 组织控制</text>
+
+    <rect x="150" y="250" width="500" height="88" rx="4" fill="#25352d"/>
+    <text x="400" y="306" fill="#fff" font-size="34">审判 · 永生 · 回转</text>
+    <path d="M400 338V386" stroke="#b8c5bb" stroke-width="5"/>
+
+    <rect x="90" y="386" width="620" height="178" rx="4" fill="#355b4b"/>
+    <text x="400" y="442" fill="#fff" font-size="38">教义域</text>
+    <text x="400" y="492" fill="#fff" font-size="30">责任 · 正义 · 盼望</text>
+    <text x="400" y="536" fill="#dce9e1" font-size="25">问：传统如何理解自己？</text>
+    <path d="M400 564V612" stroke="#b8c5bb" stroke-width="5"/>
+
+    <rect x="90" y="612" width="620" height="178" rx="4" fill="#587487"/>
+    <text x="400" y="668" fill="#fff" font-size="38">心理域</text>
+    <text x="400" y="718" fill="#fff" font-size="30">恐惧 · 意义 · 安全感</text>
+    <text x="400" y="762" fill="#e1eaf0" font-size="25">问：经验研究观察到什么？</text>
+    <path d="M400 790V838" stroke="#b8c5bb" stroke-width="5"/>
+
+    <rect x="90" y="838" width="620" height="178" rx="4" fill="#b68136"/>
+    <text x="400" y="894" fill="#fff" font-size="38">组织域</text>
+    <text x="400" y="944" fill="#fff" font-size="30">接引 · 见证 · 控制</text>
+    <text x="400" y="988" fill="#fff2db" font-size="25">问：权力与行为结出什么果实？</text>
+
+    <rect x="70" y="1070" width="660" height="76" rx="4" fill="#e8eee9"/>
+    <text x="400" y="1118" fill="#25352d" font-size="26">先分域，再判断；不用一个答案包办</text>
+  </g>
+</svg>

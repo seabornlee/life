@@ -111,6 +111,12 @@ for (const name of [
   'lord-master-disciple.svg',
   'service-and-sacrifice.svg',
   'sin-and-original-sin.svg',
+  'judgment-eternal-life-fear.svg',
+  'judgment-eternal-life-fear-mobile.svg',
+  'moses-and-pentateuch.svg',
+  'moses-and-pentateuch-mobile.svg',
+  'pilgrims-progress-as-path.svg',
+  'pilgrims-progress-as-path-mobile.svg',
 ]) {
   await copyFile(
     path.join(sourceRoot, 'assets/illustrations', name),

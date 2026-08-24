@@ -97,6 +97,39 @@
       "editorialStatus": "owner-approved",
       "publicationStatus": "published",
       "sourceHash": "6f1f688c8a90a7e8652e3ee95df6e6eb4c1f4203c79cb5e29c72edd167823aff"
+    },
+    {
+      "id": "judgment-eternal-life-fear",
+      "order": 9,
+      "slug": "judgment-eternal-life-fear",
+      "title": "天罚与永生：接引、盼望，还是恐惧控制？",
+      "description": "审判语言在教义中同时指向责任、正义与盼望；它是否成为控制，要看具体组织如何使用它。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "58bb26fb4b96501ca4095890bb4228f62d89dc9135e2b38ea4f15e071e80bb4e"
+    },
+    {
+      "id": "moses-and-pentateuch",
+      "order": 10,
+      "slug": "moses-and-pentateuch",
+      "title": "摩西是谁？他写了整部旧约吗？",
+      "description": "摩西是五经中的解放领袖、律法中保与先知典范；传统归属、经文内部的写作记载和现代成书研究需要分开。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "0cb32decf78f167709af64c89b341a30bd80db4f375a572e50ed65580878cffc"
+    },
+    {
+      "id": "pilgrims-progress-as-path",
+      "order": 11,
+      "slug": "pilgrims-progress-as-path",
+      "title": "《天路历程》：为什么把信仰写成一条路？",
+      "description": "班扬把罪、恩典、虚荣、怀疑与盼望变成可行走的地形，使信仰不只是接受答案，而是在道路中持续分辨。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "2f2c4772f3dec4124818f0147e815dbf8a10f778d67b485bac11782f5fd0ce3f"
     }
   ]
 }
