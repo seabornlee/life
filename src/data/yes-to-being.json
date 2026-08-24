@@ -42,6 +42,61 @@
       "editorialStatus": "owner-approved",
       "publicationStatus": "published",
       "sourceHash": "925143300b11656b298fb8bf4179a3d1c20ea10cc6ce1e3876b0e4d52455d2eb"
+    },
+    {
+      "id": "authority",
+      "order": 4,
+      "slug": "authority",
+      "title": "谁是最高权威？立上帝，破除伪权威",
+      "description": "终极权威不是把无限权力交给某个人，而是使一切人间权威失去绝对性；但谁若垄断了“代表上帝”的解释权，破权威也会反转为神圣化的控制。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "c94496b875418d89d11db1b774167db70bbc0067a3c1c47b69e39552ad280b41"
+    },
+    {
+      "id": "scripture-theology-church",
+      "order": 5,
+      "slug": "scripture-theology-church",
+      "title": "《圣经》、神学与教会：同一见证的三个域",
+      "description": "《圣经》保存见证，神学解释见证，教会共同体实践见证；三者不是彼此替代，而是在垂直关系中互相校正。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "675c0f614aa656d055e3e298ef2f8b891f9165834e9ba144115d31cbfc443143"
+    },
+    {
+      "id": "lord-master-disciple",
+      "order": 6,
+      "slug": "lord-master-disciple",
+      "title": "主、师父与门徒：基督徒究竟是谁的徒弟？",
+      "description": "“门徒”确实包含学习与跟随，但基督教称耶稣为“主”，不只是在称呼一位师父；学习、友谊、服侍与终极效忠在同一关系中共存。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "5a7397b91855165a0d757c884b665ee6893af052c2b691d2c8467302bf1c23fb"
+    },
+    {
+      "id": "service-and-sacrifice",
+      "order": 7,
+      "slug": "service-and-sacrifice",
+      "title": "服侍是爱的溢出，还是自我牺牲？",
+      "description": "爱会产生真实成本，但成本不等于自我抹除；健康的服侍从自由和领受出发，在需要、能力与共同承担之间持续分辨。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "95241cde33056f84c87161f054ac3250a4bf39fcd6dcc10c70dfe1000ece1e26"
+    },
+    {
+      "id": "sin-and-original-sin",
+      "order": 8,
+      "slug": "sin-and-original-sin",
+      "title": "罪与原罪：人性本恶，还是关系失序？",
+      "description": "罪不只是做错一件事，也是一种人与上帝、他人、自我和世界的关系失序；原罪试图说明这种失序为何先于并渗入每个人的选择。",
+      "updated": "2026-08-24",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "6f1f688c8a90a7e8652e3ee95df6e6eb4c1f4203c79cb5e29c72edd167823aff"
     }
   ]
 }

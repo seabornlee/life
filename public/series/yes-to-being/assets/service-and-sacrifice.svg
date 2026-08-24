@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">服侍的循环结构</title>
+  <desc id="desc">领受与照顾、自由分辨、承担成本和共同补给构成循环，服侍不是自我抹除。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="80" y="78" text-anchor="start" fill="#25352d" font-size="42" font-weight="700">服侍不是一条燃尽自己的直线</text>
+    <text x="80" y="122" text-anchor="start" fill="#607069" font-size="25">领受使人给予，有限又把人带回领受</text>
+    <path d="M240 340C240 210 390 155 510 215M690 215C810 155 960 210 960 340M960 340C960 470 810 525 690 465M510 465C390 525 240 470 240 340" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <path d="M491 202L516 218L487 228M946 319L962 344L972 315M709 478L684 462L713 452M254 361L238 336L228 365" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <g font-size="27">
+      <rect x="415" y="166" width="370" height="92" rx="4" fill="#355b4b"/>
+      <text x="600" y="203" fill="#fff">领受与照顾</text><text x="600" y="235" fill="#fff" font-size="20">承认自己也是被爱的人</text>
+      <rect x="770" y="294" width="330" height="92" rx="4" fill="#587487"/>
+      <text x="935" y="331" fill="#fff">自由分辨</text><text x="935" y="363" fill="#fff" font-size="20">需要 · 能力 · 拒绝权</text>
+      <rect x="415" y="422" width="370" height="92" rx="4" fill="#b68136"/>
+      <text x="600" y="459" fill="#fff">承担爱的成本</text><text x="600" y="491" fill="#fff" font-size="20">时间 · 注意力 · 金钱 · 行动</text>
+      <rect x="100" y="294" width="330" height="92" rx="4" fill="#9a4f49"/>
+      <text x="265" y="331" fill="#fff">共同补给</text><text x="265" y="363" fill="#fff" font-size="20">轮换 · 休息 · 彼此接住</text>
+    </g>
+  </g>
+</svg>

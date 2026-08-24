@@ -102,7 +102,16 @@ await copyFile(
   path.join(sourceRoot, 'assets/illustrations', selectedCover.filename),
   path.join(assetOutputDir, 'cover.jpg'),
 );
-for (const name of ['obedience.svg', 'forgiveness.svg', 'church-community.svg']) {
+for (const name of [
+  'obedience.svg',
+  'forgiveness.svg',
+  'church-community.svg',
+  'authority.svg',
+  'scripture-theology-church.svg',
+  'lord-master-disciple.svg',
+  'service-and-sacrifice.svg',
+  'sin-and-original-sin.svg',
+]) {
   await copyFile(
     path.join(sourceRoot, 'assets/illustrations', name),
     path.join(assetOutputDir, name),

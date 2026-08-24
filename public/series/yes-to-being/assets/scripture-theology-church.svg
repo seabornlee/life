@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">《圣经》、神学与教会的三个域</title>
+  <desc id="desc">经文保存见证，神学解释见证，教会把解释实践出来，实践反馈回到经文与共同分辨。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="80" y="78" text-anchor="start" fill="#25352d" font-size="42" font-weight="700">同一见证的三个域</text>
+    <text x="80" y="122" text-anchor="start" fill="#607069" font-size="25">保存 · 翻译 · 活出来 · 再回到文本校正</text>
+
+    <path d="M175 316H1025" fill="none" stroke="#b8c5bb" stroke-width="4"/>
+    <path d="M405 304L425 316L405 328M775 304L795 316L775 328" fill="none" stroke="#b8c5bb" stroke-width="4"/>
+    <g>
+      <circle cx="205" cy="316" r="112" fill="#355b4b"/>
+      <text x="205" y="302" fill="#fff" font-size="30">存在域</text>
+      <text x="205" y="345" fill="#fff" font-size="25">经文见证</text>
+      <circle cx="600" cy="316" r="112" fill="#587487"/>
+      <text x="600" y="302" fill="#fff" font-size="30">认识域</text>
+      <text x="600" y="345" fill="#fff" font-size="25">神学解释</text>
+      <circle cx="995" cy="316" r="112" fill="#b68136"/>
+      <text x="995" y="302" fill="#fff" font-size="30">实践域</text>
+      <text x="995" y="345" fill="#fff" font-size="25">教会共同体</text>
+    </g>
+
+    <path d="M1000 445C900 570 300 570 200 445" fill="none" stroke="#9a4f49" stroke-width="4" stroke-dasharray="12 12"/>
+    <path d="M215 445L195 451L204 469" fill="none" stroke="#9a4f49" stroke-width="4"/>
+    <rect x="352" y="500" width="496" height="68" rx="4" fill="#fff" stroke="#d9dfda" stroke-width="2"/>
+    <text x="600" y="543" fill="#9a4f49" font-size="25">实践反馈 · 重新查考 · 共同分辨</text>
+  </g>
+</svg>

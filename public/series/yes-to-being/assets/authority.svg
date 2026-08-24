@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">终极权威使人间权威相对化</title>
+  <desc id="desc">上帝与基督作为终极权威，使教会职分、经文解释、专业知识和公共权力成为有限且可校正的权威，信众在兄弟姊妹关系中共同分辨。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="80" y="76" text-anchor="start" fill="#25352d" font-size="42" font-weight="700">最高权威不是给某个人最高权限</text>
+    <text x="80" y="120" text-anchor="start" fill="#607069" font-size="25">终极者使所有人间权威有限、可问责、可校正</text>
+
+    <rect x="420" y="160" width="360" height="82" rx="4" fill="#355b4b"/>
+    <text x="600" y="211" fill="#fff" font-size="31">上帝与基督 · 终极权威</text>
+    <path d="M600 242V297" stroke="#b68136" stroke-width="5"/>
+    <path d="M588 285L600 301L612 285" fill="none" stroke="#b68136" stroke-width="5"/>
+    <text x="600" y="333" fill="#8b6331" font-size="24">使一切人间权威相对化</text>
+
+    <path d="M165 390H1035" stroke="#b8c5bb" stroke-width="3"/>
+    <path d="M600 348V390" stroke="#b8c5bb" stroke-width="3"/>
+    <g font-size="27">
+      <rect x="90" y="390" width="225" height="86" rx="4" fill="#587487"/>
+      <text x="202" y="444" fill="#fff">教会职分</text>
+      <rect x="355" y="390" width="225" height="86" rx="4" fill="#b68136"/>
+      <text x="467" y="444" fill="#fff">经文解释</text>
+      <rect x="620" y="390" width="225" height="86" rx="4" fill="#9a4f49"/>
+      <text x="732" y="444" fill="#fff">专业知识</text>
+      <rect x="885" y="390" width="225" height="86" rx="4" fill="#59665f"/>
+      <text x="997" y="444" fill="#fff">公共权力</text>
+    </g>
+
+    <path d="M202 476V530M467 476V530M732 476V530M997 476V530" stroke="#b8c5bb" stroke-width="3" stroke-dasharray="8 8"/>
+    <rect x="250" y="530" width="700" height="76" rx="4" fill="#e8eee9" stroke="#b8c5bb" stroke-width="2"/>
+    <text x="600" y="579" fill="#25352d" font-size="29">兄弟姊妹共同分辨 · 彼此服侍 · 互相校正</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">主、师父与门徒的四重关系</title>
+  <desc id="desc">学习、友谊、服侍和终极效忠围绕基督徒与耶稣的关系共存，不能互相替代。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif" text-anchor="middle">
+    <text x="80" y="78" text-anchor="start" fill="#25352d" font-size="42" font-weight="700">跟随基督不止是拜师</text>
+    <text x="80" y="122" text-anchor="start" fill="#607069" font-size="25">四种关系垂直共在，任何一种都不能独占全部</text>
+    <circle cx="600" cy="350" r="105" fill="#fff" stroke="#d9dfda" stroke-width="3"/>
+    <text x="600" y="338" fill="#25352d" font-size="31" font-weight="700">跟随基督</text>
+    <text x="600" y="380" fill="#607069" font-size="24">门徒的生命关系</text>
+    <path d="M520 280L385 205M680 280L815 205M520 420L385 505M680 420L815 505" stroke="#b8c5bb" stroke-width="4"/>
+    <g font-size="27">
+      <rect x="155" y="155" width="270" height="96" rx="4" fill="#355b4b"/>
+      <text x="290" y="194" fill="#fff">老师与门徒</text><text x="290" y="228" fill="#fff" font-size="21">学习 · 模仿</text>
+      <rect x="775" y="155" width="270" height="96" rx="4" fill="#587487"/>
+      <text x="910" y="194" fill="#fff">朋友与朋友</text><text x="910" y="228" fill="#fff" font-size="21">相知 · 信任</text>
+      <rect x="155" y="455" width="270" height="96" rx="4" fill="#b68136"/>
+      <text x="290" y="494" fill="#fff">差遣与服侍</text><text x="290" y="528" fill="#fff" font-size="21">使命 · 行动</text>
+      <rect x="775" y="455" width="270" height="96" rx="4" fill="#9a4f49"/>
+      <text x="910" y="494" fill="#fff">主与属他的人</text><text x="910" y="528" fill="#fff" font-size="21">归属 · 效忠</text>
+    </g>
+  </g>
+</svg>
