@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Yes 与 And 的两阶运动</title>
+  <desc id="desc">Yes 在既有相空间中看见系统、边界与潜能，And 调整关系、约束与反馈，使新的可达状态出现；新现实再进入下一轮 Yes。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif">
+    <text x="72" y="76" fill="#25352d" font-size="42" font-weight="700">回归方向，也改变可能空间</text>
+    <text x="72" y="120" fill="#607069" font-size="25">Yes 与 And 不是直线步骤，而是递归运动</text>
+    <path d="M238 346C238 211 398 162 518 226M682 226C802 162 962 211 962 346M962 346C962 481 802 530 682 466M518 466C398 530 238 481 238 346" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <path d="M500 213L524 229L495 239M948 325L964 350L974 321M700 479L676 463L705 453M252 367L236 342L226 371" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <g text-anchor="middle">
+      <rect x="402" y="176" width="396" height="108" rx="4" fill="#355b4b"/>
+      <text x="600" y="218" fill="#fff" font-size="30" font-weight="700">Yes：一阶回归</text>
+      <text x="600" y="254" fill="#e7f0eb" font-size="21">看见系统 · 承认边界 · 发现潜能</text>
+      <rect x="736" y="294" width="390" height="108" rx="4" fill="#b68136"/>
+      <text x="931" y="336" fill="#fff" font-size="30" font-weight="700">And：二阶创造</text>
+      <text x="931" y="372" fill="#fff4df" font-size="21">调整关系 · 约束 · 反馈</text>
+      <rect x="402" y="412" width="396" height="108" rx="4" fill="#587487"/>
+      <text x="600" y="454" fill="#fff" font-size="30" font-weight="700">新的可达状态</text>
+      <text x="600" y="490" fill="#eaf0f3" font-size="21">原本不可达的生命可能成为现实</text>
+      <rect x="74" y="294" width="390" height="108" rx="4" fill="#9a4f49"/>
+      <text x="269" y="336" fill="#fff" font-size="30" font-weight="700">新现实成为既有</text>
+      <text x="269" y="372" fill="#f7e9e8" font-size="21">进入下一轮承认、分辨与创造</text>
+    </g>
+    <text x="600" y="598" text-anchor="middle" fill="#607069" font-size="21">个人系统论转译，不等同于基督教关于人格神与三位一体的教义</text>
+  </g>
+</svg>

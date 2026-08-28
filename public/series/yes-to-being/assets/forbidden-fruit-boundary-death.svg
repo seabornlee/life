@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">禁果、边界与死亡</title>
+  <desc id="desc">人在受赠的园子中面对受造边界，越界以后经历羞耻、躲藏与关系失序，最终失去生命树并归于尘土。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif">
+    <text x="72" y="78" fill="#25352d" font-size="42" font-weight="700">死亡不是果子的即时毒性</text>
+    <text x="72" y="122" fill="#607069" font-size="25">叙事呈现的是信任、关系与生命来源的断裂</text>
+    <path d="M154 328H1046" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <path d="M1030 313L1054 328L1030 343" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <g text-anchor="middle">
+      <circle cx="152" cy="328" r="74" fill="#355b4b"/>
+      <text x="152" y="319" fill="#fff" font-size="26">受赠的园子</text>
+      <text x="152" y="354" fill="#fff" font-size="19">生命与广阔自由</text>
+      <circle cx="376" cy="328" r="74" fill="#587487"/>
+      <text x="376" y="319" fill="#fff" font-size="26">受造边界</text>
+      <text x="376" y="354" fill="#fff" font-size="19">人不是最终尺度</text>
+      <circle cx="600" cy="328" r="74" fill="#b68136"/>
+      <text x="600" y="319" fill="#fff" font-size="26">不信与越位</text>
+      <text x="600" y="354" fill="#fff" font-size="19">自行定义善恶</text>
+      <circle cx="824" cy="328" r="74" fill="#9a4f49"/>
+      <text x="824" y="319" fill="#fff" font-size="26">关系失序</text>
+      <text x="824" y="354" fill="#fff" font-size="19">羞耻 · 躲藏 · 推诿</text>
+      <circle cx="1048" cy="328" r="74" fill="#574f4c"/>
+      <text x="1048" y="319" fill="#fff" font-size="26">走向死亡</text>
+      <text x="1048" y="354" fill="#fff" font-size="19">失去生命树</text>
+    </g>
+    <rect x="222" y="474" width="756" height="96" rx="4" fill="#eef2ed" stroke="#cbd5cf" stroke-width="2"/>
+    <text x="600" y="514" text-anchor="middle" fill="#355b4b" font-size="26" font-weight="700">传统解释的共同核心</text>
+    <text x="600" y="549" text-anchor="middle" fill="#607069" font-size="22">离开生命源头，使关系断裂、败坏进入存在，并最终归于尘土</text>
+  </g>
+</svg>

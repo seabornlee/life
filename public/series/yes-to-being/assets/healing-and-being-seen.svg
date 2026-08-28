@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">从医治到被看见</title>
+  <desc id="desc">患血漏的女人从长期疾病、隔离和隐藏，经由伸手与医治，走向被称为女儿并带着尊严回到生活。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif">
+    <text x="72" y="78" fill="#25352d" font-size="42" font-weight="700">痊愈不只是症状消失</text>
+    <text x="72" y="122" fill="#607069" font-size="25">身体、身份与关系在同一个故事中被恢复</text>
+    <path d="M173 338H1027" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <g text-anchor="middle">
+      <rect x="72" y="246" width="240" height="184" rx="4" fill="#574f4c"/>
+      <text x="192" y="292" fill="#fff" font-size="27" font-weight="700">十二年血漏</text>
+      <text x="192" y="332" fill="#fff" font-size="20">疾病 · 耗费 · 不洁</text>
+      <text x="192" y="366" fill="#fff" font-size="20">隔离与隐藏</text>
+      <text x="192" y="401" fill="#e4e8e5" font-size="18">《马可福音》5:25-26</text>
+      <rect x="344" y="246" width="240" height="184" rx="4" fill="#587487"/>
+      <text x="464" y="292" fill="#fff" font-size="27" font-weight="700">伸手触摸</text>
+      <text x="464" y="332" fill="#fff" font-size="20">在恐惧中靠近</text>
+      <text x="464" y="366" fill="#fff" font-size="20">身体立刻痊愈</text>
+      <text x="464" y="401" fill="#eaf0f3" font-size="18">信靠不是衣服的魔力</text>
+      <rect x="616" y="246" width="240" height="184" rx="4" fill="#b68136"/>
+      <text x="736" y="292" fill="#fff" font-size="27" font-weight="700">停下并询问</text>
+      <text x="736" y="332" fill="#fff" font-size="20">从隐藏中说出实情</text>
+      <text x="736" y="366" fill="#fff" font-size="20">不再只是无名病例</text>
+      <text x="736" y="401" fill="#fff4df" font-size="18">耶稣称她为“女儿”</text>
+      <rect x="888" y="246" width="240" height="184" rx="4" fill="#355b4b"/>
+      <text x="1008" y="292" fill="#fff" font-size="27" font-weight="700">平安地回去</text>
+      <text x="1008" y="332" fill="#fff" font-size="20">尊严得到确认</text>
+      <text x="1008" y="366" fill="#fff" font-size="20">重新进入关系与生活</text>
+      <text x="1008" y="401" fill="#e7f0eb" font-size="18">医治成为完整恢复</text>
+    </g>
+    <g fill="none" stroke="#b8c5bb" stroke-width="5">
+      <path d="M312 323L336 338L312 353"/>
+      <path d="M584 323L608 338L584 353"/>
+      <path d="M856 323L880 338L856 353"/>
+    </g>
+    <text x="600" y="522" text-anchor="middle" fill="#355b4b" font-size="27" font-weight="700">症状停止 + 被看见 + 身份恢复 + 重回共同生活</text>
+    <text x="600" y="563" text-anchor="middle" fill="#607069" font-size="21">这段经文不能反过来指责未痊愈的人“信心不够”</text>
+  </g>
+</svg>

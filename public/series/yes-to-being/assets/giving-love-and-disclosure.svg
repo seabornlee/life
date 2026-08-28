@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">付出、表达与隐形债务</title>
+  <desc id="desc">同一份付出根据表达目的分成两条路径：共享事实、需要和边界促进真实关系；追讨认可与服从则制造亏欠，把礼物变成账单。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif">
+    <text x="72" y="76" fill="#25352d" font-size="42" font-weight="700">礼物什么时候变成账单？</text>
+    <text x="72" y="120" fill="#607069" font-size="25">关键不在“有没有说”，而在表达为了什么</text>
+    <rect x="400" y="166" width="400" height="104" rx="4" fill="#355b4b"/>
+    <text x="600" y="207" text-anchor="middle" fill="#fff" font-size="29" font-weight="700">我为关系付出了什么</text>
+    <text x="600" y="242" text-anchor="middle" fill="#e7f0eb" font-size="20">行动也改善自己，不等于他人只是工具</text>
+    <path d="M600 270V318M600 318H302V356M600 318H898V356" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <path d="M287 340L302 364L317 340M883 340L898 364L913 340" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <g text-anchor="middle">
+      <rect x="100" y="364" width="404" height="154" rx="4" fill="#587487"/>
+      <text x="302" y="406" fill="#fff" font-size="27" font-weight="700">共享关系事实</text>
+      <text x="302" y="445" fill="#fff" font-size="20">说明行动 · 感受 · 需要 · 边界</text>
+      <text x="302" y="480" fill="#eaf0f3" font-size="19">允许对方理解、回应，也允许拒绝</text>
+      <rect x="696" y="364" width="404" height="154" rx="4" fill="#9a4f49"/>
+      <text x="898" y="406" fill="#fff" font-size="27" font-weight="700">追讨认可与服从</text>
+      <text x="898" y="445" fill="#fff" font-size="20">“我为你做了这些，所以你必须……”</text>
+      <text x="898" y="480" fill="#f7e9e8" font-size="19">用善意制造羞耻、控制和道德债务</text>
+      <rect x="180" y="550" width="244" height="62" rx="4" fill="#355b4b"/>
+      <text x="302" y="590" fill="#fff" font-size="24">礼物进入真实关系</text>
+      <rect x="776" y="550" width="244" height="62" rx="4" fill="#574f4c"/>
+      <text x="898" y="590" fill="#fff" font-size="24">礼物变成隐形账单</text>
+    </g>
+    <path d="M302 518V542M898 518V542" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+  </g>
+</svg>

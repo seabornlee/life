@@ -5,7 +5,7 @@
   "description": "一个初学者走近《圣经》与基督教的真实提问。这里区分经文见证、神学解释、共同体实践与李浪溪的个人转译。",
   "canonicalUrl": "https://life.waterlee.site/series/yes-to-being/",
   "sourceId": "01a01859-5ca3-72f1-b096-e3873bdfd171",
-  "updated": "2026-08-24",
+  "updated": "2026-08-28",
   "published": "2026-08-24",
   "cover": "/series/yes-to-being/assets/cover.jpg",
   "preview": false,
@@ -38,10 +38,10 @@
       "slug": "church-community",
       "title": "教会作为共同体：练习、互助与归属",
       "description": "教会同时是信仰练习场、互助网络和归属关系；判断它是否健康，要看权力、金钱、冲突与成员主体性怎样被实践。",
-      "updated": "2026-08-24",
+      "updated": "2026-08-28",
       "editorialStatus": "owner-approved",
       "publicationStatus": "published",
-      "sourceHash": "925143300b11656b298fb8bf4179a3d1c20ea10cc6ce1e3876b0e4d52455d2eb"
+      "sourceHash": "fc93e9286a8a3f3439c712b4c74ebc866058140655797de2825558fb2ff46fac"
     },
     {
       "id": "authority",
@@ -130,6 +130,50 @@
       "editorialStatus": "owner-approved",
       "publicationStatus": "published",
       "sourceHash": "2f2c4772f3dec4124818f0147e815dbf8a10f778d67b485bac11782f5fd0ce3f"
+    },
+    {
+      "id": "forbidden-fruit-boundary-death",
+      "order": 12,
+      "slug": "forbidden-fruit-boundary-death",
+      "title": "禁果、边界与死亡：为什么吃了就会死？",
+      "description": "果子不是一枚简单的毒果；故事从受赠的自由与受造边界，展开到不信任、关系失序、失去生命树与肉身死亡。",
+      "updated": "2026-08-28",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "2d300162d220031b427358cd68c79685cbc5992f0a6a8fe857bddc6460eeaf6b"
+    },
+    {
+      "id": "healing-and-being-seen",
+      "order": 13,
+      "slug": "healing-and-being-seen",
+      "title": "从摸衣角到被看见：患血漏的女人",
+      "description": "这不只是症状消失的神迹；故事把身体医治、信靠、从隐藏中被看见以及尊严与关系的恢复放在一起。",
+      "updated": "2026-08-28",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "4b63645a72e78913173c5bb8c67a98357c6c082726035be5292adeba18f132ad"
+    },
+    {
+      "id": "giving-love-and-disclosure",
+      "order": 14,
+      "slug": "giving-love-and-disclosure",
+      "title": "付出、爱与被看见：礼物什么时候变成账单？",
+      "description": "行动也改善自身，不等于行动只指向自身；说明付出也不必然是邀功。关键是对方是否被当作目的，以及表达是在共享事实还是制造亏欠。",
+      "updated": "2026-08-28",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "818c590d0a7dbdf05974b4f7e443a4b8a277ad751b3e1c7c288f4771d89dc406"
+    },
+    {
+      "id": "god-as-attractor-yes-and",
+      "order": 15,
+      "slug": "god-as-attractor-yes-and",
+      "title": "神是吸引子吗？用 Yes/And 阅读安息与创造",
+      "description": "Yes 在既有相空间中看见现实、边界与潜能，And 改变关系、约束与反馈，使新的生命状态成为可能；这是一种个人系统论转译，不是传统神论的替代。",
+      "updated": "2026-08-28",
+      "editorialStatus": "owner-approved",
+      "publicationStatus": "published",
+      "sourceHash": "0a60d2ed7ee1773ec41c25af619a248c8d8348901558040fcccb5e8ecb072d1c"
     }
   ]
 }
