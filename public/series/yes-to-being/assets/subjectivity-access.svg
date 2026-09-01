@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">主体性与可达性</title>
+  <desc id="desc">主体性包括亲自经历生命、看见选项并承担后果、感受和边界被承认三个层次。控制、羞辱和恐惧不会抹掉主体，却会压缩行动与关系的可达性。</desc>
+  <rect width="1200" height="675" fill="#f8faf7"/>
+  <g font-family="LXGW WenKai Lite, Noto Serif SC, Songti SC, serif">
+    <text x="72" y="78" fill="#25352d" font-size="42" font-weight="700">主体没有消失，通道可能被压缩</text>
+    <text x="72" y="122" fill="#607069" font-size="25">教育的任务是守住主体形成的条件，而不是替孩子完成选择</text>
+    <path d="M338 301H842" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <path d="M826 286L850 301L826 316" fill="none" stroke="#b8c5bb" stroke-width="5"/>
+    <g text-anchor="middle">
+      <circle cx="238" cy="301" r="112" fill="#355b4b"/>
+      <text x="238" y="277" fill="#fff" font-size="29" font-weight="700">存在主体</text>
+      <text x="238" y="317" fill="#fff" font-size="22">我亲自经历生命</text>
+      <text x="238" y="350" fill="#dce9e0" font-size="18">无人能够替代</text>
+      <circle cx="600" cy="301" r="112" fill="#587487"/>
+      <text x="600" y="277" fill="#fff" font-size="29" font-weight="700">行动主体</text>
+      <text x="600" y="317" fill="#fff" font-size="22">看见选项并承担</text>
+      <text x="600" y="350" fill="#e1ebf1" font-size="18">可以被严重压缩</text>
+      <circle cx="962" cy="301" r="112" fill="#b68136"/>
+      <text x="962" y="277" fill="#fff" font-size="29" font-weight="700">关系主体</text>
+      <text x="962" y="317" fill="#fff" font-size="22">感受与边界被承认</text>
+      <text x="962" y="350" fill="#fff3da" font-size="18">可能被长期否认</text>
+    </g>
+    <path d="M600 432V496" fill="none" stroke="#9a4f49" stroke-width="4" stroke-dasharray="10 10"/>
+    <path d="M962 432V496" fill="none" stroke="#9a4f49" stroke-width="4" stroke-dasharray="10 10"/>
+    <rect x="282" y="496" width="636" height="103" rx="4" fill="#f7ecea" stroke="#d3a9a3" stroke-width="2"/>
+    <text x="600" y="536" text-anchor="middle" fill="#86443f" font-size="28" font-weight="700">控制 · 羞辱 · 恐惧</text>
+    <text x="600" y="572" text-anchor="middle" fill="#744f4a" font-size="22">压缩表达、行动和关系的可达性，却不等于主体被抹除</text>
+  </g>
+</svg>

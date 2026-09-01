@@ -5,7 +5,7 @@
   "description": "一个初学者走近《圣经》与基督教的真实提问。这里区分经文见证、神学解释、共同体实践与李浪溪的个人转译。",
   "canonicalUrl": "https://life.waterlee.site/series/yes-to-being/",
   "sourceId": "01a01859-5ca3-72f1-b096-e3873bdfd171",
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "published": "2026-08-24",
   "cover": "/series/yes-to-being/assets/cover.jpg",
   "preview": false,
@@ -49,10 +49,10 @@
       "slug": "authority",
       "title": "谁是最高权威？立上帝，破除伪权威",
       "description": "终极权威不是把无限权力交给某个人，而是使一切人间权威失去绝对性；但谁若垄断了“代表上帝”的解释权，破权威也会反转为神圣化的控制。",
-      "updated": "2026-08-24",
+      "updated": "2026-08-31",
       "editorialStatus": "owner-approved",
       "publicationStatus": "published",
-      "sourceHash": "c94496b875418d89d11db1b774167db70bbc0067a3c1c47b69e39552ad280b41"
+      "sourceHash": "63e5e1d8f32ad31018436ea413e38a572327223e9fea96172184c8b1f5ac002b"
     },
     {
       "id": "scripture-theology-church",
@@ -60,10 +60,10 @@
       "slug": "scripture-theology-church",
       "title": "《圣经》、神学与教会：同一见证的三个域",
       "description": "《圣经》保存见证，神学解释见证，教会共同体实践见证；三者不是彼此替代，而是在垂直关系中互相校正。",
-      "updated": "2026-08-24",
+      "updated": "2026-08-31",
       "editorialStatus": "owner-approved",
       "publicationStatus": "published",
-      "sourceHash": "675c0f614aa656d055e3e298ef2f8b891f9165834e9ba144115d31cbfc443143"
+      "sourceHash": "877e9ad10f21d165cef77ccab73798293f70bb3fcb145205ec4c3dd8a6a4dc39"
     },
     {
       "id": "lord-master-disciple",
@@ -137,10 +137,10 @@
       "slug": "forbidden-fruit-boundary-death",
       "title": "禁果、边界与死亡：为什么吃了就会死？",
       "description": "果子不是一枚简单的毒果；故事从受赠的自由与受造边界，展开到不信任、关系失序、失去生命树与肉身死亡。",
-      "updated": "2026-08-28",
+      "updated": "2026-08-31",
       "editorialStatus": "owner-approved",
       "publicationStatus": "published",
-      "sourceHash": "2d300162d220031b427358cd68c79685cbc5992f0a6a8fe857bddc6460eeaf6b"
+      "sourceHash": "fe70556b54bbcbad7c9833aa61e5f838ad3499be8e80246e64d6a0c33cc2b338"
     },
     {
       "id": "healing-and-being-seen",

@@ -118,6 +118,7 @@ for (const name of [
   'pilgrims-progress-as-path.svg',
   'pilgrims-progress-as-path-mobile.svg',
   'forbidden-fruit-boundary-death.svg',
+  'subjectivity-access.svg',
   'healing-and-being-seen.svg',
   'giving-love-and-disclosure.svg',
   'god-as-attractor-yes-and.svg',
